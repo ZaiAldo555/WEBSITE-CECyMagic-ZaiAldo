@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="LogoCecyMagic.jpeg" type="image/jpeg">
+
+    <title>Cascadas de Valle de Bravo</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f4f6f9;
+        }
+
+        h1 {
+            color: #14532d;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #555555;
+        }
+
+        p {
+            color: #333333;
+            text-align: justify;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .card-img-top {
+            width: 80%;
+            height: 200px;
+            object-fit: cover;
+            margin: auto;
+            display: block;
+            border-radius: 5px;
+        }
+
+        .card {
+            height: 100%;
+            border: none;
+        }
+
+        .card-title {
+            color: #198754;
+            font-weight: bold;
+        }
+
+        .video-tiktok {
+            width: 100%;
+            max-height: 650px;
+            object-fit: contain;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .video-columna {
+            position: sticky;
+            top: 20px;
+        }
+
+        @media (max-width: 767px) {
+            .video-columna {
+                position: static;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <div class="container text-center my-5">
+
+        <h1>Cascadas</h1>
+
+        <h2>La belleza natural de Valle de Bravo</h2>
+
+    </div>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container my-5">
+
+        <div class="row g-4 align-items-start">
+
+            <!-- COLUMNA IZQUIERDA: VIDEO -->
+            <div class="col-md-6 video-columna">
+
+                <div class="card shadow p-3">
+
+                    <h5 class="card-title text-center">
+                        Descubre los paisajes naturales
+                    </h5>
+
+                    <video class="video-tiktok" controls>
+                        <source src="VC.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="card-body text-center">
+
+                        <a href="https://vt.tiktok.com/ZSs2fPKVb/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-success">
+
+                            Ver en TikTok
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COLUMNA DERECHA -->
+            <div class="col-md-6">
+
+                <!-- TARJETA 1 -->
+                <div class="card shadow mb-4">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Cascada Velo de Novia
+                        </h5>
+
+                        <img src="VDN.jpeg"
+                        class="card-img-top mb-3"
+                        alt="Cascada Velo de Novia">
+
+                        <p>
+                            La Cascada Velo de Novia es uno de los
+                            atractivos naturales más visitados de
+                            Valle de Bravo. Se encuentra en la zona
+                            de Avándaro y destaca por su impresionante
+                            caída de agua de aproximadamente 35 metros.
+                        </p>
+
+                        <p>
+                            Su nombre se relaciona con la apariencia
+                            blanca del agua al descender por las rocas,
+                            semejante a un velo de novia. Está rodeada
+                            de árboles y vegetación que crean un
+                            ambiente ideal para disfrutar de la
+                            naturaleza.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TARJETA 2 -->
+                <div class="card shadow mb-4">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Cascada Piedra de Molino
+                        </h5>
+
+                        <img src="PDM.jpeg"
+                        class="card-img-top mb-3"
+                        alt="Cascada Piedra de Molino">
+
+                        <p>
+                            Piedra de Molino es un espacio natural
+                            donde el agua y las formaciones rocosas
+                            crean un paisaje atractivo. Su entorno
+                            está rodeado de vegetación y permite
+                            apreciar la riqueza natural de la región.
+                        </p>
+
+                        <p>
+                            Este lugar ofrece la oportunidad de
+                            disfrutar de un ambiente tranquilo,
+                            observar el recorrido del agua y
+                            contemplar los paisajes boscosos
+                            característicos de Valle de Bravo.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TARJETA 3 -->
+                <div class="card shadow mb-4">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Cascada Refugio del Salto
+                        </h5>
+
+                        <img src="RDS.jpeg"
+                        class="card-img-top mb-3"
+                        alt="Cascada Refugio del Salto">
+
+                        <p>
+                            La Cascada Refugio del Salto es otro
+                            atractivo natural que permite conocer
+                            los paisajes y la vegetación de los
+                            alrededores de Valle de Bravo.
+                            Su entorno destaca por la presencia
+                            de árboles, rocas y corrientes de agua.
+                        </p>
+
+                        <p>
+                            Durante la temporada de lluvias,
+                            el agua puede aumentar su caudal,
+                            haciendo que el paisaje sea aún
+                            más llamativo. Es un espacio que
+                            permite valorar la belleza natural
+                            y la importancia de cuidar el medio
+                            ambiente.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
